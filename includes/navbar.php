@@ -47,9 +47,9 @@
       <li><a href="contact.php">Contact</a></li>
     </ul>
 
-      <form class="navbar-form navbar-left" method = "GET" action="search_results.php">
+      <form class="navbar-form navbar-left" method = "GET" action="search_operation.php">
         <div class="form-group">
-          <input type="text" class="form-control" name = "search" placeholder="Search">
+          <input type="text" class="form-control" name = "search" placeholder="Search" required>
         </div>
           <button type="submit" class="btn btn-default">Search</button>
       </form>
